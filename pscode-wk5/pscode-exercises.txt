@@ -13,9 +13,9 @@ print on the screen the sum of those 2 numbers
 // Exercise 2: Check if a Number is Even or Odd
 
 IF number % 2 == 0 THEN
-  Print "The number is even"
+  print "The number is even"
 ELSE
-  Print "The number is odd"
+  print "The number is odd"
 ENDIF
 
 // Exercise 3: 
@@ -49,7 +49,7 @@ ENDFOR
 
 average = sum / count
 
-Print "The average of the five numbers is", average
+print "The average of the five numbers is", average
 Print "The smallest (minimum) number is", min
 Print "The largest (maximum) number is", max
 
