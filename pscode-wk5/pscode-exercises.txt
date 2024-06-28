@@ -1,5 +1,5 @@
 // Exercise 1: Calculate the Sum of Two Numbers
-num1 = 5 , num2 = 4
+
 a + b = c
 
 num1 + num2 = sum
@@ -12,7 +12,11 @@ print on the screen the sum of those 2 numbers
 
 // Exercise 2: Check if a Number is Even or Odd
 
-(9)
+IF number % 2 == 0 THEN
+  Print "The number is even"
+ELSE
+  Print "The number is odd"
+ENDIF
 
 // Exercise 3: 
 Write pseudo code that will perform the following.    
@@ -22,4 +26,31 @@ b) Calculate the average of the five numbers.
 c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
 d) Write out the results found from steps b and c with a message describing what they are
 
-17
+sum = 0
+count = 5
+
+min = Infinity
+max = Infinity
+ 
+FOR i = 1 TO count DO
+
+input number
+
+  sum = sum + number
+
+IF number < min THEN 
+    min = number
+ENDIF
+
+IF number > max THEN 
+    max = number
+ENDIF
+ENDFOR
+
+average = sum / count
+
+Print "The average of the five numbers is", average
+Print "The smallest (minimum) number is", min
+Print "The largest (maximum) number is", max
+
+
